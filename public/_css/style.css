@@ -1,0 +1,58 @@
+
+html, body {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.topo{
+
+    width: 100%;
+    float: left;
+    vertical-align: middle;
+    background-color: rgb(35,35,35);
+   
+}
+
+.logo{
+
+    width: 15%;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.titulo{
+
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+
+}
+
+.msgErro{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:red;
+
+}
+
+.msgSucesso{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:green;
+
+}
+
+#form{
+    padding-top: 100px;
+}

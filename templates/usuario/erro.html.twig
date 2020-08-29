@@ -1,0 +1,33 @@
+{% extends "base.html.twig" %}
+
+{% block topo %}
+
+	<div class="topo">
+		<div class="logo">
+			<img src="{{ asset('_img/logo-digital.png') }}" alt="Logo Digital">
+		</div>
+		<div class="titulo">CADASTRO SYMFONY</div>
+	</div>
+
+{% endblock %}
+
+{% block stylesheets %}
+
+	<link rel="stylesheet" href="{{ asset('_css/style.css') }}"/>
+
+{% endblock %}
+
+{% block title %}
+
+	Cadastro de Usuários
+
+{% endblock %}
+
+{# Formulário de Cadastro#}
+
+{% block body %}
+	<p class="msgErro">
+		Erro:<strong>{{ fulano }}</strong>
+	</p>
+	<a href="{{ url('web_usuario_index') }}">voltar</a>
+{% endblock %}
